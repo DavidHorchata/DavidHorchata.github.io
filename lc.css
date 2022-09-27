@@ -1,0 +1,78 @@
+
+
+#container {
+    background-color: rgb(35, 34, 34);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#title {
+    margin: auto;
+    width: 50%;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+
+    border-style: solid;
+    border-radius: 10px;
+    
+    background-color: rgb(99, 99, 99);
+}
+
+
+.item {
+    height: 150px;
+    width: 200px;
+
+    background-color: wheat;
+    text-align: center;
+
+    margin: 10px;
+    border-radius: 10px;
+
+    font-size: 36px;
+    line-height: 140px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.days {
+    display: block;
+}
+
+.link {
+    display: none;
+}
+.item:hover .days{
+    display: none;
+}
+
+
+.item:hover .link{
+    display: block;
+    font-size: 20px;
+    
+}
+
+
+
+
+
+
+
+
+
+/*
+#no flex-basis instead just use uniform spacing wiht like osme kine of max per row of 5 or 7*/

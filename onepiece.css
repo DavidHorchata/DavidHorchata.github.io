@@ -1,0 +1,10 @@
+.carousel-item {
+
+    height: 950px;
+    width: 100%;
+  }
+  
+.carousel-item img {
+    height: auto;
+    width: 100%;
+}
